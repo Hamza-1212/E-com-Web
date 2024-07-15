@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant E-Commerce Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top animate__animated animate__fadeInDown" style="padding: 0 50px;">
+        <a class="navbar-brand" href="#">E-Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active animate__animated animate__fadeInLeft">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item animate__animated animate__fadeInLeft">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item animate__animated animate__fadeInRight">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item animate__animated animate__fadeInRight">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-center d-flex justify-content-center align-items-center">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__bounceInDown">Welcome to E-Shop</h1>
+            <p class="lead animate__animated animate__fadeInUp">Your one-stop shop for all things beautiful and elegant.</p>
+            <a href="#products" class="btn btn-primary btn-lg animate__animated animate__zoomIn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">Our Products</h2>
+            <div class="row">
+                <!-- Product Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card animate__animated animate__fadeInLeft animate__delay-1s">
+                        <img src="img/pexels-david-bartus-43782-615003.jpg" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 1</h5>
+                            <p class="card-text">This is a short description of the product.</p>
+                            <a href="#" class="btn btn-primary animate__animated animate__pulse animate__infinite">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card animate__animated animate__fadeInUp animate__delay-1s">
+                        <img src="img/pexels-matreding-23105762.jpg" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 2</h5>
+                            <p class="card-text">This is a short description of the product.</p>
+                            <a href="#" class="btn btn-primary animate__animated animate__pulse animate__infinite">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card animate__animated animate__fadeInRight animate__delay-1s">
+                        <img src="img/pexels-vvs-440853-5734462.jpg" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 3</h5>
+                            <p class="card-text">This is a short description of the product.</p>
+                            <a href="#" class="btn btn-primary animate__animated animate__pulse animate__infinite">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">About Us</h2>
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <img src="img/pexels-adrien-olichon-1257089-2817452.jpg" class="img-fluid" alt="About Image">
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel velit vel velit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel velit vel velit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">Contact Us</h2>
+            <form class="animate__animated animate__fadeInUp">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary animate__animated animate__bounce">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section py-4 bg-dark text-white text-center animate__animated animate__slideInUp">
+        <div class="container">
+            <p>&copy; 2024 E-Shop. All Rights Reserved.</p>
+            <div class="social-links animate__animated animate__heartBeat animate__infinite">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
